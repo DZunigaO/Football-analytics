@@ -44,9 +44,7 @@ football-analytics-portfolio/
 ## Data Sources
 
 Projects in this repository use publicly available football data from sources such as:
-- StatsBomb Open Data
-- Wyscout
-- [Other sources you use]
+- IMPECT
 
 All data usage complies with respective licenses and terms of use.
 
