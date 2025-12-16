@@ -50,16 +50,6 @@ All data usage complies with respective licenses and terms of use.
 
 ---
 
-## Future Work
-
-Planned additions to this portfolio:
-- [ ] Expected goals (xG) model development
-- [ ] Injury prediction using performance data
-- [ ] Passing network analysis
-- [ ] [Other ideas you have]
-
----
-
 ## Contact
 
 Interested in collaborating or discussing these projects? Feel free to reach out:
