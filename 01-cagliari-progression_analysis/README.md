@@ -47,58 +47,26 @@ The analysis aimed to answer:
 **4. Player-Level Assessment**
 - Identified key players involved in bypassing opponents (as passers and receivers)
 - Analyzed midfield involvement in progression
-- Examined how player positioning affected overall team structure
 
 ---
 
 ## Key Findings
 
 ### 1. Progression Deficiency
-- **Lowest in the league** for bypassed opponents per successful pass (0.50 vs league average ~0.65)
+- **Lowest in the league** for bypassed opponents per successful pass and line-breaking receptions
 - **Bottom three** for total successful passes
-- **Last place** for line-breaking receptions (52.7 per 90 vs league mean 78.3)
 
 ### 2. Pass Type Inefficiency
 - **Second-highest reliance on chipped passes** in Serie A
-- **Negative correlation** between chipped pass frequency and accuracy
 - Lower pressure when attempting chipped passes (18.1% vs league average 19.7%), suggesting tactical choice rather than necessity
 
 ### 3. Structural Weakness in Midfield
 - Central defenders and forwards dominate progression statistics
-- Midfielders underrepresented in both giving and receiving progressive passes
 - Progression relies heavily on direct play rather than sustained positional circulation
 
 ### 4. Match Context Insights
 - More balanced passing distribution and advanced positioning correlated with better results
-- Higher bypassed opponents per pass in the successful match vs defeats
 - Network analysis revealed more compact, connected structure in winning performance
-
----
-
-## Technical Skills Demonstrated
-
-**Data Analysis**
-- Event data manipulation and feature engineering
-- Correlation analysis and benchmarking
-- Spatial analysis of pitch positioning
-
-**Visualization**
-- Multi-panel comparative plots
-- Passing network diagrams with spatial context
-- Pitch-based event visualizations
-- Statistical scatter plots with trend lines
-
-**Football Analytics Concepts**
-- Expected goals (xG) framework
-- Progressive passing metrics
-- Line-breaking receptions
-- Pressure quantification
-- Bypassed opponents calculation
-
-**Tools & Technologies**
-- Python for data processing and analysis
-- Data visualization libraries (Matplotlib/similar)
-- Event data handling from IMPECT format
 
 ---
 
@@ -143,24 +111,8 @@ This analysis demonstrates how data-driven insights can:
 2. **Full narrative:** See `Cagliari_Analysis_Report.pdf`
 3. **Technical details:** Explore `Cagliari_Progression_Analysis.ipynb`
 
-### Run the Code
-```python
-# Install dependencies
-pip install -r requirements.txt
-
-# Open Jupyter notebook
-jupyter notebook Cagliari_Progression_Analysis.ipynb
-```
-
 **Note:** Raw event data is not included due to licensing restrictions. The notebook includes sample data structures and all analytical code.
 
----
-
-## Key Takeaways
-
-> "Cagliari's relegation wasn't simply about defending poorly—it was about failing to create chances through cohesive possession. The team's over-reliance on direct, low-probability passes and lack of midfield involvement in progression meant they couldn't consistently threaten opponents."
-
-This project demonstrates the value of multi-level analysis (team, player, match) combined with league-wide benchmarking to identify specific, actionable problems rather than generic performance issues.
 
 ---
 
