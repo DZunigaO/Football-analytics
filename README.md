@@ -10,36 +10,32 @@ I'm a Data Scientist with a background in economics, finance, and machine learni
 
 ## Projects
 
-### 1. [Project Name - e.g., Player Performance Analysis]
-**Folder:** [`01-player-performance-analysis/`](./01-player-performance-analysis/)
+### 1. Understanding Cagliari's Relegation: Progression Analysis
+**Folder:** [`01-cagliari-progression-analysis/`](./01-cagliari-progression-analysis/)
 
-**Description:** Brief 2-3 sentence overview of what the project does and what problem it solves.
+**Description:** Investigation of why Cagliari Calcio was relegated from Serie A 2021/22, identifying critical weaknesses in ball progression through comprehensive event data analysis. The study reveals that Cagliari ranked last in the league for key progression metrics and relied excessively on low-success chipped passes rather than sustained positional play.
 
 **Key Techniques:**
-- List main methods used (e.g., machine learning, clustering, regression)
-- Types of data (event data, tracking data, etc.)
-- Specific models or approaches
+- Event data analysis and KPI benchmarking
+- Correlation analysis between progression metrics and xG
+- Spatial analysis and passing network visualization
+- Player-level performance assessment
 
-**Technologies:** Python, pandas, scikit-learn, Matplotlib
+**Technologies:** Python, pandas, Matplotlib, event data processing
 
-**Key Findings:** 1-2 sentence summary of main results
+**Key Findings:** Cagliari's relegation was driven primarily by inability to progress the ball effectively (lowest bypassed opponents per pass in Serie A at 0.50), over-reliance on chipped passes, and lack of midfield involvement in progression phases.
 
-[**→ View Project Details**](./01-player-performance-analysis/)
-
----
+[**→ View Project Details**](./01-cagliari-progression-analysis/)
 
 ---
 
 ## Repository Structure
-
 ```
 football-analytics-portfolio/
-├── README.md                           # This file
-├── 01-player-performance-analysis/     # Project 1
+├── README.md                              # This file
+├── 01-cagliari-progression-analysis/      # Progression analysis project
 │   ├── ...
 ```
-
-
 
 ## Data Sources
 
